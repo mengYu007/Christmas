@@ -1,0 +1,76 @@
+html,body{
+	width:100%;
+	height:100%;
+}
+body{
+	background: rgb(201, 37, 45);
+	position: relative;
+	margin:0;
+	padding:0;
+}
+.swiper-container{
+	width:100%;
+	height:100%;
+}
+ .swiper-slide {text-align: center;font-size: 18px;display: -webkit-box;display: -ms-flexbox;display: -webkit-flex;display: flex;-webkit-box-pack: center;-webkit-justify-content: center;justify-content: center;-webkit-box-align: center;-ms-flex-align: center;-webkit-align-items: center;align-items: center;width:100%;height:100%;}
+.first{position: relative;}
+.first .first1 img{position:absolute;width:15.2rem;height:3.3rem;top:0;left:1rem;}
+.first .first2 img{position:absolute;width:14.85rem;height:4.25rem;top:3.2rem;left:0.125rem;}
+.first .first3 img{position:absolute;width:12.9rem;height:12.45rem;top:9rem;left:2rem;}
+.first .first4 img{position:absolute;width:100%;height:6.025rem;top:21.5rem;left:0;}
+.first .first5 img{position:absolute;width:6.2rem;height:6.55rem;top:21rem;left:0;}
+.first .first6 img{position:absolute;width:5.75rem;height:4.8rem;top:22rem;right:0.125rem;}
+.first .first7 img{position:absolute;width:100%;height:100%;top:0;right:0;}
+.sec{position:relative;}
+.sec .sec1 img{position:absolute;width:100%;height:1.45rem;top:3rem;left:0;}
+.sec .sec2 img{position:absolute;width:100%;height:3.7rem;top:4rem;left:0;}
+.sec .sec3 img{position:absolute;width:12.15rem;height:5.95rem;top:7.5rem;left:2rem;}
+.sec .sec4 img{position:absolute;width:6.5rem;height:7.35rem;top:14.5rem;left:5rem;}
+.sec .sec5 img{position:absolute;width:100%;height:16.9rem;bottom:0;left:0rem;}
+.sec .sec6 img{position:absolute;width:100%;height:100%;top:0;right:0;}
+.thr{position:relative;}
+.thr .thr1 img{position:absolute;width:100%;height:7.7rem;top:0;left:0;}
+.thr .thr2 img{position:absolute;width:4.25rem;height:5.1rem;top:4.5rem;left:1.7rem;}
+.thr .thr3 img{position:absolute;width:13.55rem;height:9.1rem;top:10.5rem;left:1.3rem;}
+.thr .thr4 img{position:absolute;width:10.8rem;height:6.85rem;top:20.5rem;left:2.5rem;}
+.zf1 p{position:absolute;color:#000;font-size:1rem;width:11.25rem;top:11.8rem;left:2.5rem;font-weight:600;}
+.zf2
+span{position:absolute;color:#000;font-size:1rem;width:11.25rem;top:16.5rem;left:6rem;font-weight:600;}
+.music{width:1rem;height:1rem;background: none;border:2px solid #fff;border-radius:50%;position:fixed;top:1rem;right:0.5rem;font-size: 1rem;line-height:1rem;color:#fff;text-align: center;z-index: 100;}
+@keyframes music{
+	form{transform: rotate(0deg);}
+	to{transform: rotate(360deg);}
+}
+.addMus{animation:music 3s linear 0s infinite;}
+@keyframes one{
+	from{transform:scale(0.5) rotate(0deg) translate(0px);}
+	to{transform:scale(1) rotate(-180deg) translate(20px);}
+}
+@keyframes two{
+	from{transform:scale(0.5) rotate(0deg) translate(0px);}
+	to{transform:scale(1) rotate(180deg) translate(15px);}
+}
+@keyframes thre{
+	from{transform:scale(0.5) rotate(0deg) translate(0px);}
+	to{transform:scale(1) rotate(-180deg) translate(-15px);}
+}
+music .one{animation:one 3s linear 0s infinite;position:absolute;left:5px;top:10px;z-index:20}
+.music .two{animation:two 3s linear 0s infinite;position:absolute;left:20px;top:10px;font-size:5px;z-index:20}
+@keyframes up{
+	from{transform:translateY(0px);opacity:1}
+	to{transform:translateY(-25px);opacity:0}
+}
+.music .thre{animation:thre 3s linear 0s infinite;position:absolute;left:20px;top:15px;font-size:5px;z-index:20}
+.arrow {position:absolute;bottom:0.25rem;left:50%;z-index: 500;animation:up 1.5s linear 0s infinite;}
+.swiper-pagination-fraction {
+    bottom: 10px;
+    font-size:0.5rem;
+    color:#fff;
+}
+.swiper-pagination-fraction {
+    bottom: 10px;
+    left:85%;
+    width: 3rem;
+}
+.swiper-wrapper .swiper-pagination {left: right;}
+
